@@ -8,6 +8,7 @@ license = "Apache-2.0"
 keywords = ["numpress", "mass-spectrometry", "proteomics", "mzml", "compression"]
 categories = ["compression", "science"]
 publish = false
+include = ["src/**", "tests/**", "Cargo.toml", "LICENSE"]
 
 [dependencies]
 
