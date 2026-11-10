@@ -5,10 +5,12 @@ edition = "2021"
 rust-version = "1.88"
 description = "MS-Numpress encoding and decoding (linear, pic, slof) for mass spectrometry data, in safe Rust"
 license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/MatteoLacki/numpression"
 keywords = ["numpress", "mass-spectrometry", "proteomics", "mzml", "compression"]
 categories = ["compression", "science"]
 publish = false
-include = ["src/**", "tests/**", "Cargo.toml", "LICENSE"]
+include = ["src/**", "tests/**", "Cargo.toml", "LICENSE", "README.md"]
 
 [dependencies]
 

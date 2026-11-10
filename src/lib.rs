@@ -22,6 +22,10 @@ pub use slof::{decode_slof, encode_slof, optimal_slof_fixed_point};
 
 use std::fmt;
 
+#[doc = include_str!("../README.md")]
+#[cfg(doctest)]
+pub struct ReadmeDoctests;
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Error {
     /// The array is shorter than its header.
