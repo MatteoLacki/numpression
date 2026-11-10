@@ -13,11 +13,13 @@ spectrometry data, in safe Rust with no dependencies.
 - Decoders bounds-check every read: a corrupt array returns an `Error`, never panics.
 - `#![forbid(unsafe_code)]`.
 
+How each codec works, byte by byte, with worked examples: [THEORY.md](THEORY.md).
+
 ## Usage
 
 ```toml
 [dependencies]
-numpression = { git = "https://github.com/MatteoLacki/numpression" }
+numpression = "0.1"
 ```
 
 ```rust

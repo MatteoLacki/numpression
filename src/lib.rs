@@ -26,6 +26,10 @@ use std::fmt;
 #[cfg(doctest)]
 pub struct ReadmeDoctests;
 
+#[doc = include_str!("../THEORY.md")]
+#[cfg(doctest)]
+pub struct TheoryDoctests;
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Error {
     /// The array is shorter than its header.
